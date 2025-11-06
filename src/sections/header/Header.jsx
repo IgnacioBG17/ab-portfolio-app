@@ -11,7 +11,10 @@ const Header = () => {
         </div>
         <h3>Angel Bustamante</h3>
         <p>
-        Estás a un clic de crear la web o app web de tus sueños. ¡Envíame los detalles de tu proyecto hoy mismo para una web moderna, adaptable a móviles y de alto rendimiento!
+        Desarrollador .NET con 4+ años de experiencia en el desarrollo y mantenimiento de aplicaciones empresariales. 
+        Me apasiona trabajar en equipo, compartir conocimientos y aprender continuamente de mis compañeros, 
+        lo cual me ha permitido crecer tanto técnica como profesionalmente. Me destaco por mi enfoque en la mejora continua, 
+        mi capacidad de adaptación y mi compromiso con entregar soluciones de calidad alineadas a los objetivos del negocio.
         </p>
         <div className="header__cta">
           <a href="#contact" className='btn primary'>Hablemos</a>
