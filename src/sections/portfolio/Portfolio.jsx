@@ -23,9 +23,9 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio">
-      <h2>Recent Projects</h2>
+      <h2>Proyectos Recientes</h2>
       <p>
-      Aquí tienes algunos de los proyectos en los que he trabajado recientemente para mis clientes. Usa los botones para alternar entre las diferentes categorías.
+      Aquí tienes algunos de los proyectos en los que he trabajado recientemente a nivel personal como parte de mi mejora y actualización continua. Usa los botones para alternar entre las diferentes categorías.
       </p>
       <div className="container portfolio__container">
         <ProjectsCategories categories={uniqueCategories} onFilterProjects={filterProjectsHandler}/>

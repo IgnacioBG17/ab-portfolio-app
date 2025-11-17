@@ -8,7 +8,7 @@ const Contact = () => {
       <p>
         ¡Envíame un mensaje a través de cualquiera de los enlaces que aparecen a continuación!
       </p>
-      <div className="container contact__container">
+      <div className="container contact__container" data-aos="fade-up">
        {contacts.map(contact => (
           <a
             key={contact.id}

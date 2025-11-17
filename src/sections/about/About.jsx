@@ -1,4 +1,4 @@
-import AboutImage from '../../assets/about.jpg'
+import AboutImage from '../../assets/AvatarAngel2.jpeg'
 import CV from '../../assets/cv.pdf'
 import {HiDownload} from 'react-icons/hi'
 import data from './data'
@@ -7,7 +7,7 @@ import './about.css'
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" data-aos="fade-in">
         <div className="container about__container">
             <div className="about__left">
                 <div className="about__portrait">
@@ -28,15 +28,12 @@ const About = () => {
                     }
                 </div>
                 <p>
-                Crear proyectos que encanten a mis clientes siempre ha sido mi pasión.
-                Con más de 3 años de experiencia en el sector del desarrollo web y más de 70 clientes satisfechos en todo el mundo,
-                ¡siempre estoy motivado para lograr más!
+
                 </p>
                 <p>
                 Hola, me llamo Angel Bustamante y soy de Managua, Nicaragua.
-                Soy desarrollador web full-stack e ingeniero en sistemas.
-                Mi prioridad es que tu negocio tenga presencia online de la mejor manera, ofreciéndote un diseño profesional y todas las funcionalidades necesarias para operar sin problemas en internet.
-                ¡Contáctame hoy mismo y cuéntame los detalles de tu proyecto! ¡Empecemos! Consulta mi currículum a continuación.
+                Estudie la carrera de ingenieria de sistemas y soy desarrollador de aplicaciones.
+                Me destaco por mi enfoque en la mejora continua, mi capacidad de adaptación y mi compromiso con entregar soluciones de calidad alineadas a los objetivos del negocio.
                 </p>
                 <a href={CV} download className='btn primary'>Download CV <HiDownload/></a>
             </div>
