@@ -26,9 +26,9 @@ const Header = () => {
             Me destaco por mi compromiso con entregar soluciones de calidad alineadas con objetivos del negocio.
             </p>
             <div className="header__cta" data-aos="fade-up">
-            <a href={CV} download className='btn primary'>Download CV <HiDownload/></a>
-            <a href="#contact" className='btn primary'>Hablemos</a>
-            <a href="#portfolio" className='btn primary'>Mi trabajo</a>
+            <a href={CV} download className='btn primary'>Curriculum <HiDownload/></a>
+            {/* <a href="#contact" className='btn primary'>Hablemos</a> */}
+            <a href="#portfolio" className='btn primary'>Proyectos</a>
             </div>
             <div className="header__socials">
             {
