@@ -1,4 +1,4 @@
-import AboutImage from '../../assets/AvatarAngel2.jpeg'
+
 import CV from '../../assets/cv.pdf'
 import {HiDownload} from 'react-icons/hi'
 import data from './data'
@@ -8,14 +8,14 @@ import './about.css'
 const About = () => {
   return (
     <section id="about" data-aos="fade-in">
-        <div className="container about__container">
-            <div className="about__left">
+        <div className="container about__center">
+            {/* <div className="about__left">
                 <div className="about__portrait">
                     <img src={AboutImage} alt="About Image" />
                 </div>
-            </div>
+            </div> */}
             <div className="about__right">
-                <h2>Acerca de mí</h2>
+                <h2>Habilidades</h2>
                 <div className="about__cards">
                     {
                         data.map(item => (
@@ -31,11 +31,11 @@ const About = () => {
 
                 </p>
                 <p>
-                Hola, me llamo Angel Bustamante y soy de Managua, Nicaragua.
+                {/* Hola, me llamo Angel Bustamante y soy de Managua, Nicaragua.
                 Estudie la carrera de ingenieria de sistemas y soy desarrollador de aplicaciones.
-                Me destaco por mi enfoque en la mejora continua, mi capacidad de adaptación y mi compromiso con entregar soluciones de calidad alineadas a los objetivos del negocio.
+                Me destaco por mi enfoque en la mejora continua, mi capacidad de adaptación y mi compromiso con entregar soluciones de calidad alineadas a los objetivos del negocio. */}
                 </p>
-                <a href={CV} download className='btn primary'>Download CV <HiDownload/></a>
+                {/* <a href={CV} download className='btn primary'>Download CV <HiDownload/></a> */}
             </div>
         </div>
     </section>

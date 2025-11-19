@@ -21,11 +21,12 @@ const data = [
 const experiences = [
     {
     id: 1,
-    title: 'Proyectos personales • Mejora continua',
+    title: 'Proyectos personales • Desarrollo Profesional & Mejora Continua',
     date: 'Julio 2025 — actualidad',
     mode: '',
     details: [
-      '- Creacion de proyectos personales que me ayudan a manternerme actualizado con lo ultimo en tecnologia',
+      '• Diseño y desarrollo de proyectos personales enfocados en fortalecer habilidades clave en arquitectura de software, microservicios, Clean Architecture, CQRS, DDD, mensajería distribuida y patrones empresariales modernos.',
+      '• Investigación continua, aplicándolas directamente en mis proyectos como práctica activa para mantenerme actualizado con tecnologías relevantes.'
     ]
   },
   {
@@ -50,7 +51,7 @@ const experiences = [
     date: 'Octubre 2020 — Abril 2021',
     mode: 'Remoto',
     details: [
-      'Desarrollé un módulo de anulación de anticipos de clientes como parte de un sistema empresarial. Participando en todo el ciclo: análisis, estimación de tareas, desarrollo, pruebas e integración.',
+      '• Desarrollé un módulo de anulación de anticipos de clientes como parte de un sistema empresarial. Participando en todo el ciclo: análisis, estimación de tareas, desarrollo, pruebas e integración.',
     ]
   }
 ]
