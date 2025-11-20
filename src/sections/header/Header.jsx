@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import HeaderImage from '../../assets/AvatarAngel1.jpg';
+import HeaderImage from '../../assets/AvatarAngel1.png';
 import data from './data';
 import CV from '../../assets/cv.pdf'
 import AOS from 'aos';
